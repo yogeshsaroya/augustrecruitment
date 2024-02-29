@@ -303,7 +303,7 @@ class PagesController extends AppController
 				$u  = "https://www.google.com/recaptcha/api/siteverify?secret=" . DataSecret . "&response=" . $this->data['g-recaptcha-response'] . "&remoteip=" . $_SERVER['REMOTE_ADDR'];
 				$response = @file_get_contents($u);
 				$arr = json_decode($response, true);
-				ec($arr);die;
+				
 				if (isset($arr['success'])) {
 
 					if ($this->Auth->user('id') == '') {
