@@ -219,17 +219,17 @@ echo $this->Html->css(array('bootstrap-datepicker'));
 
       </div>
       <?php echo $this->Form->end(); ?>
-      </div>
+    </div>
+    <div class="container">
+      <div class="clear"></div><br>
       <div class="col-md-12">
-        <div class="clear"></div><br>
-        <div class="col-md-12">
-          <div id="preview"></div>
-        </div>
-        <div class="clear"></div><br>
-        <div class="col-md-12"><input type="button" id="sendrequest" value="Save" class="button button-3d button-large button-rounded button-brown pull-right"></div>
+        <div id="preview"></div>
       </div>
+      <div class="clear"></div><br>
+      <div class="col-md-121"><input type="button" id="sendrequest" value="Save" class="button button-3d button-large button-rounded button-brown pull-right"></div>
+    </div>
 
-    
+
     <div class="col-md-12">
       <div id="preview1"></div>
     </div>
