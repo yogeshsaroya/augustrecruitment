@@ -3,16 +3,16 @@
     visibility: hidden;
     position: absolute;
   }
-  
-          .checkbox input[type="checkbox"],
-          .checkbox-inline input[type="checkbox"] {
-            margin-left: 0;
-          }
 
-          .checkbox label {
-            padding-left: 10px;
-          }
-        </style>
+  .checkbox input[type="checkbox"],
+  .checkbox-inline input[type="checkbox"] {
+    margin-left: 0;
+  }
+
+  .checkbox label {
+    padding-left: 10px;
+  }
+</style>
 
 <script type="text/javascript">
   var onloadCallback = function() {
@@ -194,7 +194,7 @@ echo $this->Html->css(array('bootstrap-datepicker'));
         </fieldset>
         <br>
 
-       
+
 
         <fieldset class="col-md-12">
 
@@ -202,7 +202,7 @@ echo $this->Html->css(array('bootstrap-datepicker'));
             <?php
             $termsAndConditions =  $this->Html->link('Terms And Conditions', '/terms-and-conditions', ['target' => '_blank']);
             $labelConditions = $this->Form->label('agreeToConditions', 'I agree to the  ' . $termsAndConditions . ' of this site', ['class' => 'small_text']);
-            echo $this->Form->input('agreeToConditions', ['hiddenField'=>false, 'required' => true,'type' => 'checkbox','label' => $labelConditions,'separator' => '</div><div class="controls">','format' => ['before', 'input', 'label', 'between', 'after', 'error'],]);
+            echo $this->Form->input('agreeToConditions', ['hiddenField' => false, 'required' => true, 'type' => 'checkbox', 'label' => $labelConditions, 'separator' => '</div><div class="controls">', 'format' => ['before', 'input', 'label', 'between', 'after', 'error'],]);
             ?><div class="help-block with-errors"></div>
           </div>
 
@@ -210,7 +210,7 @@ echo $this->Html->css(array('bootstrap-datepicker'));
             <?php
             $privacy_policy =  $this->Html->link('Privacy Policy', '/privacy-policy', ['target' => '_blank']);
             $labelConditions1 = $this->Form->label('privacyPolicy', 'I agree to the  ' . $privacy_policy . ' of this site', ['class' => 'small_text']);
-            echo $this->Form->input('privacyPolicy', ['hiddenField'=>false,'required' => true,'type' => 'checkbox','label' => $labelConditions1,'separator' => '</div><div class="controls">','format' => ['before', 'input', 'label', 'between', 'after', 'error'],]);
+            echo $this->Form->input('privacyPolicy', ['hiddenField' => false, 'required' => true, 'type' => 'checkbox', 'label' => $labelConditions1, 'separator' => '</div><div class="controls">', 'format' => ['before', 'input', 'label', 'between', 'after', 'error'],]);
             ?><div class="help-block with-errors"></div>
           </div>
 
@@ -219,7 +219,7 @@ echo $this->Html->css(array('bootstrap-datepicker'));
 
       </div>
       <?php echo $this->Form->end(); ?>
-
+      </div>
       <div class="col-md-12">
         <div class="clear"></div><br>
         <div class="col-md-12">
@@ -228,8 +228,8 @@ echo $this->Html->css(array('bootstrap-datepicker'));
         <div class="clear"></div><br>
         <div class="col-md-12"><input type="button" id="sendrequest" value="Save" class="button button-3d button-large button-rounded button-brown pull-right"></div>
       </div>
-      
-    </div>
+
+    
     <div class="col-md-12">
       <div id="preview1"></div>
     </div>
@@ -367,9 +367,9 @@ echo $this->Html->css(array('bootstrap-datepicker'));
     $('#ee_frm').validator().on('submit', function(e) {
       var hasErrors = $('#ee_frm').validator('validate').has('.has-error');
       console.log(hasErrors);
-    
+
       if (e.isDefaultPrevented() === true) {
-        
+
         $('html, body').animate({
           scrollTop: $(".has-error:first :input").offset().top - 100
         }, 500);
@@ -393,9 +393,11 @@ echo $this->Html->css(array('bootstrap-datepicker'));
           $("#sendrequest").prop("disabled", false);
           $("#sendrequest").val('Save');
         },
-        error : function(response)  { $("#preview").html(response);
+        error: function(response) {
+          $("#preview").html(response);
           $("#sendrequest").prop("disabled", false);
-          $("#sendrequest").val('Save'); },
+          $("#sendrequest").val('Save');
+        },
       }).submit();
     });
 
