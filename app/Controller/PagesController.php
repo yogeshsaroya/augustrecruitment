@@ -13,7 +13,7 @@ class PagesController extends AppController
 
 	public function index()
 	{
-		$this->set('title_for_layout', 'Home : ' . WEBTITLE);
+		$this->set('title_for_layout', WEBTITLE);
 	}
 
 	public function privacy_policy()
