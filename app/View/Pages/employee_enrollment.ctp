@@ -365,7 +365,7 @@ echo $this->Html->css(array('bootstrap-datepicker'));
     });
 
     $('#ee_frm').validator().on('submit', function(e) {
-      //var hasErrors = $('#applyForm').validator('validate').has('.has-error');
+      var hasErrors = $('#applyForm').validator('validate').has('.has-error');
     
       if (e.isDefaultPrevented() === true) {
         
