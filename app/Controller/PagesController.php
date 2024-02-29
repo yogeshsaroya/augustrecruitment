@@ -333,7 +333,7 @@ class PagesController extends AppController
 
 						if (!isset($this->data['Employee']['id'])) {
 							$link = SITEURL . "users/verify?e=" . $this->request->data['User']['verification_code'];
-							$parameters = array('NAME' => strtoupper($this->request->data['User']['designation']) . " " . $this->request->data['User']['first_name'], 'EMAIL' => $this->request->data['User']['email'], 'PASSWORD' => $pwd, 'LINK' => $link, 'TYPE' => 'Employee');
+							$parameters = array('NAME' => $this->request->data['User']['first_name'], 'EMAIL' => $this->request->data['User']['email'], 'PASSWORD' => $pwd, 'LINK' => $link, 'TYPE' => 'Employee');
 							$this->DATA->AppMail($this->request->data['User']['email'], 'EmployeeForm', $parameters, DATE);
 
 							if (isset($WebSetting['WebSetting']['email']) && !empty($WebSetting['WebSetting']['email'])) {
