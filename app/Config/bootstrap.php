@@ -9,7 +9,7 @@ $serverFullPath =  "http://localhost:8888/cake/augustrecruitment/";
 
 define("SITEURL",$serverFullPath);
 define("CDN",$serverFullPath);
-define("WEBTITLE",'EnergetiCareer');
+define("WEBTITLE",'August Hospitality');
 date_default_timezone_set('US/Eastern');
 define("DATE", date("Y-m-d H:i:s"));
 define("TODAYDATE", date("Y-m-d"));
