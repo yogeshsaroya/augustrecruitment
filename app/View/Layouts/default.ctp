@@ -9,7 +9,7 @@ header("Content-type: application/javascript");
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
-	<title><?php echo ucwords(strtolower($title_for_layout)); ?></title>
+	<title><?= $title_for_layout; ?></title>
 	<meta name="description" content='<?php if (isset($page_meta)) {
 											echo htmlentities($page_meta['des'], ENT_QUOTES, 'UTF-8');
 										} else {
@@ -85,9 +85,6 @@ header("Content-type: application/javascript");
 	echo $scripts_for_layout;
 	?>
 	<style>
-		
-
-
 		.h_sec {
 			font-size: 21px !important
 		}
