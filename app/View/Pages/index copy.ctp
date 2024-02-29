@@ -1,22 +1,40 @@
+<div class="container clearfix">
+<div class="tp-banner-container">
+		<div class="tp-banner" id="home_ban">
+
+			<div class="section dark nomargin noborder home_sec" style="height: 550px;">
+				<div class="container vertical-middle center clearfix">
+					<h4 data-animate="fadeInUp">Your New Portal To Energy Recruitment</h4>
+					<div class="emphasis-title nomargin" data-animate="fadeInUp">
+						<h2 class="home_heading">Join Our Team or Let Us Help Build Yours</h2>
+					</div>
+					<h5>Whether you are an employer or a candidate, register in less than 3 minutes by scrolling down and clicking on the designated link below.</h5>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
 <section id="slider" class="slider-parallax revoslider-wrap clearfix">
 	<div class="tp-banner-container">
 		<div class="tp-banner" id="home_ban">
 
 			<div class="section dark nomargin noborder home_sec" style="height: 550px;">
 				<div class="container vertical-middle center clearfix">
-				<?php /* ?>
 					<h4 data-animate="fadeInUp">Your New Portal To Energy Recruitment</h4>
 					<div class="emphasis-title nomargin" data-animate="fadeInUp">
 						<h2 class="home_heading">Join Our Team or Let Us Help Build Yours</h2>
 					</div>
 					<h5>Whether you are an employer or a candidate, register in less than 3 minutes by scrolling down and clicking on the designated link below.</h5>
-					<?php */ ?>
 				</div>
 				<div class="video-wrap">
 					<video poster="images/videos/utils_frame.png" preload="auto" loop autoplay muted>
 						<source src='images/videos/wind_turbine_on_field.mp4' type='video/mp4' />
 					</video>
-					<div class="video-overlay1"></div>
+					<div class="video-overlay"></div>
 				</div>
 			</div>
 
@@ -25,18 +43,25 @@
 	</div>
 </section>
 
+<!-- Content
+		============================================= -->
 <section id="content">
 
 	<div class="section nobottommargin">
 		<div class="container clearfix">
 			<div class="heading-block center nobottommargin nobottomborder">
 
-				<div id="section-home" class="heading-block1 title-center nobottomborder page-section">
+				<div id="section-home" class="heading-block title-center nobottomborder page-section">
 					<h1>Welcome to Energetica’s Career portal</h1>
 					<p class="f_16">At Energetica Careers, we are dedicated to advancing the energy sector through talent and innovation. Whether you're seeking exciting career opportunities in the traditional and renewable energy industries or searching for top talent to power your projects, you've come to the right place.</p>
 
 				</div>
-				
+				<div class="center bottommargin one-page-menu">
+
+
+
+
+				</div>
 			</div>
 		</div>
 	</div>
