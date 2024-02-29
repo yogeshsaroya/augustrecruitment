@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	# Uncomment if you have a .well-known directory in the root folder, e.g. for the Let's Encrypt challenge
+	# https://tools.ietf.org/html/rfc5785
+	#RewriteRule ^(\.well-known/.*)$ $1 [L]
+	RewriteRule ^(.*)_([0-9]+)_([0-9]+)_([0-9]+)_([0-9a-zA-Z-]+)_([0-9a-zA-Z-]+)\.(jpg|jpeg|png|gif)$ imgd.php?src=$1.$7&w=$2&h=$3&q=$4&$5=$6&aro [NC,L]
+	RewriteRule ^$ app/webroot/ [L]
+	RewriteRule (.*) app/webroot/$1 [L]
+</IfModule>
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
