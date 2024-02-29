@@ -74,7 +74,7 @@
 							<h2>Employees</h2>
 
 						</div>
-						<p class="text-justify">Finding a job is sometimes a time consuming and difficult endeavor. At August we try to make the process easier for you. Simply follow the link below, fill out our enrollment form and leave it to us to find a suitable and promising opportunity on your behalf. We thank you for visiting our site and wish you the best of luck in the days ahead! <br><br></p>
+						<p class="text-justify">Finding a job is sometimes a time consuming and difficult endeavor. At August we try to make the process easier for you. Simply follow the link below, fill out our enrollment form and leave it to us to find a suitable and promising opportunity on your behalf. We thank you for visiting our site and wish you the best of luck in the days ahead! <br></p>
 						<a href="<?php echo SITEURL . "pages/employee_enrollment" ?>" class="button button-desc button-3d button-rounded button-gray center col-xs-12">
 							<div>Click Here...<span>To enroll as an Employee</span></div>
 						</a>
