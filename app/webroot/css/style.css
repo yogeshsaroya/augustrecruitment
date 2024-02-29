@@ -14046,7 +14046,7 @@ body:not(.no-transition) #wrapper,
 fieldset {
     border: 1px solid #ddd !important;
     margin: 0;
-    xmin-width: 0;
+    min-width: 0;
     padding: 10px;
     position: relative;
     border-radius: 4px;
@@ -14069,8 +14069,6 @@ legend {
     width: 48%;
     margin: 0 20px 0 0;
 }
-
-.reCol {}
 
 .with-errors .list-unstyled {
     margin: 0;
@@ -14111,3 +14109,12 @@ div#banner_1 {
     background-color: rgba(67, 172, 94, 1) !important;
     border-color: rgba(67, 172, 94, 1) !important;
 }
+
+.video-overlay {
+	content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.home_heading {font-size: 50px; padding:20px 0}	

@@ -1,3 +1,7 @@
+<style>
+
+</style>
+
 <section id="slider" class="slider-parallax revoslider-wrap clearfix">
 	<div class="tp-banner-container">
 		<div class="tp-banner">
@@ -6,7 +10,7 @@
 				<div class="container vertical-middle center clearfix">
 					<h4 data-animate="fadeInUp">YOUR NEW PORTAL TO HOSPITALITY RECRUITMENT</h4>
 					<div class="emphasis-title nomargin" data-animate="fadeInUp">
-						<h2 style="font-size: 56px;">Welcome to August Recrutiment</h2>
+						<h2 class="home_heading">Join Our Team or Let Us Help Build Yours</h2>
 					</div>
 					<h5>Whether you are an employer or a candidate, register in less than 3 minutes by scrolling down and clicking on the designated link below.</h5>
 				</div>
@@ -32,8 +36,8 @@
 			<div class="heading-block center nobottommargin nobottomborder">
 
 				<div id="section-home" class="heading-block title-center nobottomborder page-section">
-					<h1>Energeti Career</h1>
-					<p class="f_16">As hospitality consultants we understand that success is only achievable through the dedication and expertise of the individuals that are employed within an organization. At August we help individuals and organizations achieve their respective goals by working to bridge the gap between them.. We help organizations find suitable and qualified individuals and we help individuals find employment opportunities that best suit their capabilities and experience.</p>
+					<h1>Welcome to Energetica’s Career portal</h1>
+					<p class="f_16">At Energetica Careers, we are dedicated to advancing the energy sector through talent and innovation. Whether you're seeking exciting career opportunities in the traditional and renewable energy industries or searching for top talent to power your projects, you've come to the right place.</p>
 
 				</div>
 				<div class="center bottommargin one-page-menu">
