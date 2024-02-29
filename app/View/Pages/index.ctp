@@ -4,7 +4,7 @@
 
 			<div class="section dark nomargin noborder home_sec" style="height: 550px;">
 				<div class="container vertical-middle center clearfix">
-					<h4 data-animate="fadeInUp">Hospitality to Energy</h4>
+					<h4 data-animate="fadeInUp">Your New Portal To Energy Recruitment</h4>
 					<div class="emphasis-title nomargin" data-animate="fadeInUp">
 						<h2 class="home_heading">Join Our Team or Let Us Help Build Yours</h2>
 					</div>
