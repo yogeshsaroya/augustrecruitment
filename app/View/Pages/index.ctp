@@ -32,7 +32,7 @@
 			<div class="heading-block center nobottommargin nobottomborder">
 
 				<div id="section-home" class="heading-block title-center nobottomborder page-section">
-					<h1>August Hospitality Recruitment</h1>
+					<h1>Energeti Career</h1>
 					<p class="f_16">As hospitality consultants we understand that success is only achievable through the dedication and expertise of the individuals that are employed within an organization. At August we help individuals and organizations achieve their respective goals by working to bridge the gap between them.. We help organizations find suitable and qualified individuals and we help individuals find employment opportunities that best suit their capabilities and experience.</p>
 
 				</div>
@@ -89,8 +89,8 @@
 		<div id="banner_1" class="section parallax1 dark notopmargin noborder" style="padding: 60px 0px;background-color: #43ac5e;">
 			<div class="container center clearfix">
 				<div data-animate="fadeInUp" class="fadeInUp animated">
-					<h3>If you are looking for more in-depth human resource services above and beyond recruitment as well as to learn about the various other services offered by August Hospitality, please follow the link below.</h3>
-					<a href="https://www.august.consulting/" class="button button-3d button-brown button-xlarge nobottommargin">Visit August Hospitality</a>
+					<h3>If you are looking for more in-depth human resource services above and beyond recruitment as well as to learn about the various other services offered by Energeti Career, please follow the link below.</h3>
+					<a href="https://energeticareer.com/" class="button button-3d button-brown button-xlarge nobottommargin">Visit Energeti Career</a>
 				</div>
 			</div>
 		</div>

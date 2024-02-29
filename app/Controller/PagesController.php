@@ -161,7 +161,7 @@ class PagesController extends AppController
 						if (!empty($jobTitleArr)) {
 							$this->JobTitle->saveMany($jobTitleArr);
 						}
-						$pr = '<div class="container clearfix"><div class="alert alert-success"><blockquote>' . $l_msg . ' We appreciate your visit to our website and for enrolling with August and we wish you the best of luck in your quest to find a great placement!<br><br> Yours truly,<br> August Hospitality Recruitment Team </blockquote></div></div>';
+						$pr = '<div class="container clearfix"><div class="alert alert-success"><blockquote>' . $l_msg . ' We appreciate your visit to our website and for enrolling with August and we wish you the best of luck in your quest to find a great placement!<br><br> Yours truly,<br> Energeti Career Team </blockquote></div></div>';
 						echo "<script>$('#preview1').html('" . $pr . "');  $('#dfrm').remove(); $('#sendrequest').remove();</script>";
 					} else {
 						echo $s;
@@ -342,7 +342,7 @@ class PagesController extends AppController
 
 							$l_msg = 'Thank you for taking the time to fill out our enrollment form!<br><br> To complete your email verification process and to complete enrollment on our site, please follow the link in the verification email sent to you at the email address you entered in your application.<br> Following verification, if you have entered employment requests in your enrollment form, a member of our team will get in touch with you soon.  You will also be able to log in to our website and submit further employment requests at your own discretion as well as change or update your personal and professional details.  If you have not entered in any employment requests, you can do so at any time after email verification by signing in to your account and making a new request.<br>';
 						}
-						$pr = '<div class="container clearfix"><div class="alert alert-success"><blockquote>' . $l_msg . ' We appreciate your visit to our website and we look forward to a long and productive relationship with both yourself and your organization!<br><br>Yours truly,<br> August Hospitality Recruitment Team</blockquote></div></div>';
+						$pr = '<div class="container clearfix"><div class="alert alert-success"><blockquote>' . $l_msg . ' We appreciate your visit to our website and we look forward to a long and productive relationship with both yourself and your organization!<br><br>Yours truly,<br> Energeti Career Team</blockquote></div></div>';
 						echo "<script>$('#preview1').html('" . $pr . "'); $('#dfrm').remove(); $('#sendrequest').remove();</script>";
 					} else {
 						echo $s;

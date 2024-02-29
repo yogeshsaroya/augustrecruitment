@@ -247,7 +247,7 @@
 <div class="heading-block center nobottommargin nobottomborder">
 
 <div id="section-home" class="heading-block title-center nobottomborder page-section">
-<h1>August Hospitality Recruitment</h1>
+<h1>Energeti Career</h1>
 <p>As hospitality consultants we understand that success is only achievable through the dedication and understanding of the individuals that are employed within an organization.  At August we help individuals and organizations achieve their respective goals by working as a bridge between them.  We help organizations find suitable and qualified individuals and we help individuals find employment opportunities that best suit their capabilities and experience.</p>
 <p>If you are looking for more in-depth human resource services above and beyond recruitment, please follow the August Human Resources link below.</p>					
 </div>
