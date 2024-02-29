@@ -14111,10 +14111,20 @@ div#banner_1 {
 }
 
 .video-overlay {
-	content: '';
+    content: '';
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.6);
 }
-.home_heading {font-size: 50px; padding:20px 0}	
+
+#home_ban .home_heading {
+    font-size: 50px;
+    padding: 20px 0;
+    color: #43ac5e !important;
+}
+
+#home_ban .home_sec h4,
+#home_ban .home_sec h5 {
+    color: #43ac5e !important;
+}
