@@ -1,7 +1,3 @@
-<style>
-
-</style>
-
 <section id="slider" class="slider-parallax revoslider-wrap clearfix">
 	<div class="tp-banner-container">
 		<div class="tp-banner">
@@ -18,7 +14,7 @@
 					<video poster="images/videos/utils_frame.png" preload="auto" loop autoplay muted>
 						<source src='images/videos/wind_turbine_on_field.mp4' type='video/mp4' />
 					</video>
-					<div class="video-overlay"></div>
+					<div class="video-overlay11"></div>
 				</div>
 			</div>
 
