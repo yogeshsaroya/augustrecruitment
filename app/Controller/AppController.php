@@ -7,7 +7,6 @@ class AppController extends Controller {
     public $helpers = array('Html', 'Form', 'JqueryEngine', 'Session', 'Text', 'Time','Lab');
     
     function beforeFilter() {
-        die('Hello');
         $url = Router::url(null,true);
         /* redirect to www */
         /*
